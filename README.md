@@ -5,17 +5,18 @@
 * git add .
 * git commit -m "Add README"
 * git branch
-* git remote add origin  urlrepo
+*git remote add origin https://github.com/usergithub/repository.git
+* git push -u origin master
 * git flow init
 * git branch
 * git flow feature start feature1
 * touch index.html
 * git add *
 * git commit -m  "Add index file"
-* git flow feature publish feature1
+* git flow feature publish feature1  # publish push to remote repository
 * git branch
 * git pull
-* git flow feature finish feature1
+* git flow feature finish feature1 # delete feature branch
 * git flow release start v0.1
 * change readme.md with version
 * git add .
